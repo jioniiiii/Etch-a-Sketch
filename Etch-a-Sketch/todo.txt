@@ -1,0 +1,5 @@
+  For revisiting 
+-add color wheel 
+-fix code mostly in how the blocks are generated and how the rainbow blocks
+and blocks in general are placed
+-make a better ui

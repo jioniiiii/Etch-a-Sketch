@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    
+    <div class="cont">
+        <div class="slider">
+            <label for="fader">Pixel density</label>
+            <input type="range" min="8" max="64" value="8" id="fader" step="8">
+        </div>
+        <div class="num">
+            <div id="number"></div>
+        </div>
+        <div class="buttons">
+            <button class="button" id="draw">Start</button>
+            <button class="button2" id="Rainbow" onclick="toggleRainbowMode">Rainbow</button>
+            <button class="button" onclick="clearCol()">Clear</button>
+        </div> 
+    </div>
+  
+        <div class="container" id="container">
+       
+    </div>
+    
+
+    <script src="js.js"></script>
+</body>
+</html>
